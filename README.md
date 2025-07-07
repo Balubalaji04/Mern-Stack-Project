@@ -16,7 +16,7 @@ A fully responsive **User Management System** built with the MERN Stack (MongoDB
 ![Desktop Screenshot](./screenshots/mern-stack.png)
 
 ### AddUser
-![AddUser Screenshot](./screenshots/addUser.png)
+![AddUser Screenshot](./screenshots/AddUser.png)
 
 ###  AllUsers
 ![AllUsers Screenshot](./screenshots/AllUsers.png)
@@ -25,7 +25,7 @@ A fully responsive **User Management System** built with the MERN Stack (MongoDB
 ![UpdateUser Screenshot](./screenshots/UpdateUser.png)
 
 ### DeleteUser
-![UpdateUser Screenshot](./screenshots/DeleteUser.png)
+![UpdateUser Screenshot](./screenshots/DeleteUsers.png)
 
 ---
 
