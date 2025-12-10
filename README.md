@@ -6,7 +6,7 @@ A fully responsive **User Management System** built with the MERN Stack (MongoDB
 
 ## 🚀 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/VISIT-DEMO-green?style=for-the-badge&logo=vercel)](https://mern-stack-project-1n3bqzx31-balubalaji04s-projects.vercel.app)
+[![Live Demo](https://mern-stack-project-inky.vercel.app/)](https://mern-stack-project-inky.vercel.app/)
 
 ---
 
