@@ -6,7 +6,7 @@ A fully responsive **User Management System** built with the MERN Stack (MongoDB
 
 ## 🚀 Live Demo
 
-[![Live Demo](https://mern-stack-project-inky.vercel.app/)](https://mern-stack-project-inky.vercel.app/)
+[Live Demo](https://mern-stack-project-inky.vercel.app/)
 
 ---
 
