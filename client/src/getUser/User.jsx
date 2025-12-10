@@ -10,7 +10,7 @@ const User = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://mern-stack-8l2p.onrender.com/users');
+        const response = await axios.get('https://mern-stack-8l2p.onrender.com/api/users');
         setUsers(response.data);
       } catch (error) {
         console.log('Error fetching users:', error);
@@ -22,7 +22,7 @@ const User = () => {
 
   const deleteUser = async (userId) => {
     try {
-      const response = await axios.delete(`http://localhost:8000/api/delete/user/${userId}`);
+      const response = await axios.delete(`https://mern-stack-8l2p.onrender.com/api/delete/user/${userId}`);
       setUsers((prevUser) => prevUser.filter((user) => user._id !== userId));
       toast.success(response.data.message, { position: 'top-right' });
     } catch (error) {
