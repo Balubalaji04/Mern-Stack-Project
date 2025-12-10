@@ -21,7 +21,7 @@ export const UpdateUser = () => {
     };
 
     useEffect (()=>{
-        axios.get(`https://mern-stack-8l2p.onrender.com/api/user/${id}`)
+        axios.get(`https://mern-stack-8l2p.onrender.com/api/update/user/${id}`)
         .then((response) => {
             setUser(response.data);
         })
@@ -31,7 +31,7 @@ export const UpdateUser = () => {
     },[id]);
     const sumbitForm=async(e)=>{
         e.preventDefault();
-        await axios.put(`https://mern-stack-8l2p.onrender.com/api/user/${id}`,user)
+        await axios.put(`https://mern-stack-8l2p.onrender.com/api/update/user/${id}`,user)
         .then((response) => {
             toast.success(response.data.message,{ position: "top-right" });
             navigate('/');
