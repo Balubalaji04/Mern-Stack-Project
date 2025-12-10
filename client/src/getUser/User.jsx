@@ -10,7 +10,7 @@ const User = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/api/users');
+        const response = await axios.get('https://mern-stack-8l2p.onrender.com');
         setUsers(response.data);
       } catch (error) {
         console.log('Error fetching users:', error);
