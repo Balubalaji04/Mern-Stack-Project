@@ -20,7 +20,7 @@ export const AddUser = () => {
     };
     const sumbitForm=async(e)=>{
         e.preventDefault();
-        await axios.post('http://localhost:8000/api/user',user)
+        await axios.post('https://mern-stack-8l2p.onrender.com',user)
         .then((response) => {
             toast.success(response.data.message,{ position: "top-right" });
             navigate('/');
