@@ -21,7 +21,7 @@ export const UpdateUser = () => {
     };
 
     useEffect (()=>{
-        axios.get(`https://mern-stack-8l2p.onrender.com/api/update/user/${id}`)
+        axios.get(`https://mern-stack-8l2p.onrender.com/api/update/user/${id}`,user)
         .then((response) => {
             setUser(response.data);
         })
