@@ -31,7 +31,7 @@ export const UpdateUser = () => {
     },[id]);
     const sumbitForm=async(e)=>{
         e.preventDefault();
-        await axios.put(`http://localhost:8000/api/update/user/${id}`,user)
+        await axios.put(`https://mern-stack-8l2p.onrender.com`,user)
         .then((response) => {
             toast.success(response.data.message,{ position: "top-right" });
             navigate('/');
